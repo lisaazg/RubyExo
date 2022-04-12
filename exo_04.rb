@@ -1,4 +1,5 @@
-puts "Hello monde!"
-message = "Hello monde!" 
-puts "Et avec une voix sexy, ça donne :" + message + ""
-puts "Salut, ça farte ?"
+puts "Quel est votre année de naissance ?"
+year_of_birth = gets.chomp.to_i
+
+age = 2022 - year_of_birth
+puts "Tu auras 100 ans en #{year_of_birth + 100 }"
