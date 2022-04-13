@@ -1,5 +1,8 @@
-puts "Hello toi tu t'appelles comment ?"
-print "> "
-user_name = gets.chomp
-puts user_name
-puts "Bonjour " + user_name + " "
+puts "Ecrivez un nombre"
+nombre = gets.chomp.to_i
+
+puts nombre
+nombre.times do 
+    nombre -= 1
+    puts nombre.to_s    
+end  
