@@ -1,3 +1,9 @@
-puts " tu es né en quelle année ? "
-print "> "
-user_age = gets.chomp.to_i
+number = 0
+email = []
+
+50.times do
+    email1 = "jeandupont#{number += 1}@email.fr"
+    email << "#{email1}"
+end
+
+print email
