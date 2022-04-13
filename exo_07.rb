@@ -1,7 +1,7 @@
 puts "Ecris un nombre ?"
 nombre = gets.chomp.to_i
 
-total = 
+total = 0
 puts total
 nombre.times do 
     total += 1
