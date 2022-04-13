@@ -1,7 +1,7 @@
 puts "Quelle est votre année de naissance ?"
 year_of_birth = gets.chomp.to_i
 
-age = 2019 - year_of_birth.to_i
+age = 2022 - year_of_birth.to_i
 agereverse = 0
 puts year_of_birth 
 puts 0
