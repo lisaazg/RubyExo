@@ -1,6 +1,9 @@
+puts "Ecris un nombre ?"
+nombre = gets.chomp.to_i
 
-puts "Ecris un chiffre ?"
-nombre = gets.chomp.to_i - 1
+total = 
+puts total
 nombre.times do 
-    puts "Salut, ca farte ?"
-end 
+    total += 1
+    puts total.to_s    
+end  
